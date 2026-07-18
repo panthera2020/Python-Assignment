@@ -34,3 +34,9 @@ elif player_one == 'scissors' and player_two == 'paper': print('Player 1 wins')
 elif player_one == 'scissors' and player_two == 'rock': print('Player 2 wins')
 elif player_two == 'scissors' and player_one == 'paper': print('Player 2 wins')
 elif player_two == 'scissors' and player_one == 'rock': print('Player 1 wins')
+
+elif player_one == 'scissors' and player_two == 'scissors': print('Tie')
+elif player_one == 'rock' and player_two == 'rock': print('Tie')
+elif player_one == 'paper' and player_two == 'paper': print('Tie')
+
+else: print('Invalid input')
