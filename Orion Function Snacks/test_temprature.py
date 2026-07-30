@@ -4,7 +4,7 @@ print('Determine if the room is too hot or cold')
 
 print()
 
-user_temprature_input = int(input('Enter temprature of room: '))
+user_temprature_input = float(input('Enter temprature of room: '))
 
 user_celcius_or_farenheit_input = input('Enter C for celcius or F for Farenheit: ')
 

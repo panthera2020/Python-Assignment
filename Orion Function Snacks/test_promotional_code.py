@@ -6,7 +6,7 @@ print()
 
 user_product_input = input('Enter item: ')
 
-user_price_input = int(input('Enter price of item: '))
+user_price_input = float(input('Enter price of item: '))
 
 user_promo_code_input = input('Enter promo code: ')
 
